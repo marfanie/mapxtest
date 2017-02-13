@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".read": true,
+    "lugares": {
+      ".read": true,
+
+      "$user_id": {
+        ".write": "auth.token.sub == auth.uid"
+      }
+    }
+    //".read": false,
+    //".write": false
+  }
+}
