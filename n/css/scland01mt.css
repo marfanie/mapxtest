@@ -153,14 +153,14 @@ header nav a:hover{
 
 @media only screen and (max-device-width: 480px) {
 body {
-	background-image:url('/mapxtest/images/pacmapxmt_533x400.jpg');
+	background-image:url(../images/pacmapxmt_533x400.jpg);
 	
 }
 }
 
 @media only screen and (min-device-width: 480px) {
     body { 
-        background-image: url('/mapxtest/images/pacmapxmt_1600x1200.jpg'); 
+        background-image:url(.../images/pacmapxmt_1600x1200.jpg); 
     }
 }
 
