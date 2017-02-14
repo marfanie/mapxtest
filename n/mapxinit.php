@@ -4,8 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Untitled Document</title>
 <!-- ScreenMT -->
-<link href="/mapxtest/css/scland01mt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px)" />
-<link href="/mapxtest/css/scmapmt.css" rel="stylesheet" type="text/css" />
+<link href="/mapxtest/n/css/scland01mt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px)" />
+<link href="/mapxtest/n/css/scmapmt.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -15,14 +15,16 @@
     	Mapx
     </div>
     <nav>
-        <a href="/mapxtest/logout.php" target="_self" class="header-button primary-button">Cerrar Sesión</a>
+        <a href="/mapxtest/n/logout.php" target="_self" class="header-button primary-button">Cerrar Sesión</a>
 	</nav>
     </div>
 </header>
+
+<div class="row">
 <div class="menu">
 
 </div>
-<div class="main">
+<div class="main col-9 col-m-12">
 	<div id=map></div>
     <script>
 
@@ -37,6 +39,7 @@ function initMap() {
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWF4wv1ry582-p2O0vYwll6CIJ3ZpaR-Y&callback=initMap"
         async defer></script>
+</div>
 </div>
 </body>
 </html>

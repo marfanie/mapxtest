@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Untitled Document</title>
+<title>Mapx - Inicie Sesión</title>
 <!-- ScreenMT -->
-<link href="/mapxtest/css/scland01mt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px)" />
-<link href="/mapxtest/css/scformmt.css" rel="stylesheet" type="text/css" />
-<link href="/mapxtest/css/scmapmt.css" rel="stylesheet" type="text/css" />
+<link href="/mapxtest/n/css/scland01mt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px)" />
+<link href="/mapxtest/n/css/scformmt.css" rel="stylesheet" type="text/css" />
+<link href="/mapxtest/n/css/scmapmt.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -15,22 +15,18 @@
 <div class="logo">Mapx</div>
 </div>
 </header>
-<div class="row-rev">
+<div class="row">
 <div class="col-4 col-m-12">
 <form action="" method="post" name="signin02" target="_self" id="signin02">
   <p>
-    <input name="txtnombre" type="text" id="txtnombre" placeholder="Nombre" />
-  </p>
-  <p>
-    <input type="text" name="txtemail" id="txtemail" required placeholder="e-mail@ejemplo.com" value="<?php 
-	if (!empty($_GET["txtemail"])) { 
-	echo htmlspecialchars($_GET['txtemail']) ; } ; ?>" />
+    <input type="text" name="txtemail" id="txtemail" required placeholder="e-mail@ejemplo.com" value="" />
   </p>
   <p>
     <input type="password" name="txtpasword" id="txtpasword" required placeholder="Contraseña" />
   </p>
   <p>
-  <input class="primary-btn primary-button" type="submit" name="btnregistrar" id="btnregistrar" value="Registrarse" /></p></form>
+  <input class="primary-btn primary-button" type="submit" name="btningresar" id="btningresar" value="Iniciar Sesión" />
+</form>
 </div>
 
 <div class="col-8 col-m-12">

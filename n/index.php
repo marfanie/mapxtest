@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Mapx - Mi propio mapa</title>
 <!-- ScreenMT -->
-<link href="/mapxtest/css/scland01mt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px)" />
-<link href="/mapxtest/css/scmapmt.css" rel="stylesheet" type="text/css" />
+<link href="css/scland01mt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px)" />
+<link href="css/scmapmt.css" rel="stylesheet" type="text/css" />
 <!-- TabletMT -->
 <!--link href="/mapxtest/css/tablet01mt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" /-->
 <!-- SmartphoneMT -->
@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
 <header>
 	<div class="wrapper">
 	<div class="logo">	
@@ -21,7 +22,7 @@
     </div>
     <nav>
     	<a href="#" class="header-button secondary-button">Iniciar Sesión</a> 
-        <a href="/mapxtest/signin.php" target="_self" class="header-button primary-button">Registrarse</a>
+        <a href="../signin.php" target="_self" class="header-button primary-button">Registrarse</a>
 	</nav>
     </div>
 </header>
@@ -44,7 +45,7 @@ function initMap() {
     
 </div>
 <div class="col-4 col-m-12 wrapper">
-  <form action="signin.php" method="get" name="signin01" target="_self" id="signin01">
+  <form action="../signin.php" method="post" name="signin01" target="_self" id="signin01">
     <input name="txtemail" type="text" id="txtemail" placeholder="E-mail" />
     <input class="primary-btn" name="btnlogin" id="btnlogin" type="submit" value="Registrarse" />
   </form>
