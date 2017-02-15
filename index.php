@@ -13,11 +13,14 @@
 </head>
 
 <body>
-<?php require('vendor/autoload.php');
+<?php require_once('vendor/autoload.php');
 
 $_SESSION["txtemail"] = "";
 $_SESSION["txtpasword"] = "";
+$_SESSION["txtnombre"] = "";
+$_SESSION["nivel"] = "0" ;
 $_SESSION["autenticado"] = "NO";
+$_SESSION["errorusuario"] = "NO";
 
 ?>
 <script>
@@ -29,7 +32,7 @@ function registro(){
 </script>
 <header>
 	<div class="wrapper">
-	<div class="logo">	
+	<div class="logo jumbotron">	
     	Mapx
     </div>
     <nav>
@@ -60,7 +63,7 @@ function initMap() {
   <form classe="form-inline" action="web/signin.php" method="post" name="signin01" target="_self" id="signin01">
   <label class="sr-only" for="txtemail">E-mail</label>
     <input class="form-control mb-2 mr-sm-2 mb-sm-0" name="txtemail" type="text" id="txtemail" placeholder="E-mail" />
-    <button class="btn btn-primary primary-btn" name="btnlogin" id="btnlogin" type="submit">"Registrarse" </button><input id="nav" name="nav" type="hidden" value="S">
+    <button class="btn btn-primary primary-btn primary-button" name="btnlogin" id="btnlogin" type="submit">Registrarse</button><input id="nave" name="nave" type="hidden" value="S" />
   </form>
 </div>
 </div>
